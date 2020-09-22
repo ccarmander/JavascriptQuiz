@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta chaset="utf-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>JAVASCRIPT QUIZ!</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="jumbotron-1">
+        <div class="container">
+            <h1 class="display-1">Javascipt QuiZ!</h1>
+            <p class="lead">Welcome to your Javascipt for beginners quiz! Good Luck!</p>
+            <p>Answer all the questions correctly and dont run out of time!</p>
+            <hr class="my-4">
+        </div>
+    </div>
+    <br>
+    <div class='container'>
+        <button class='btn btn-primary' id='startButton'>Start</button>
+        <!-- Question page -->
+        <div id=timeRemaining></div>
+        <br>
+        <div id=currentQuestion></div>
+        <div class='question'></div>
+        <div class='answerChoices'></div>
+        <!-- Answer Page -->
+        <div id=message></div>
+        <div id=correctedAnswer></div>
+        <!-- Scoreboard -->
+        <div id=finalMessage></div>
+        <div id=correctAnswers></div>
+        <div id=incorrectAnswers></div>
+        <div id=unanswered></div>
+        <div id='startOverButton'></div>
+    </div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+
+</html>
